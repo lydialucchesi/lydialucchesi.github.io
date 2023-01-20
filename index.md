@@ -2,6 +2,13 @@
 layout: default
 ---
 
-Testing tab layout
+I am a PhD candidate at the Australian National University, Canberra. My thesis topic is **data preprocessing** and the development of tools to visualise data preprocessing decisions.
 
-[Gallery page 1](./gallery-page-1.html)        [Gallery page 2](./gallery-page-2.html)
+# Current projects
+
+## Smallset Timelines
+
+## Vizumap
+
+
+
