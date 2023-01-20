@@ -2,9 +2,9 @@
 layout: default
 ---
 
-I am a PhD candidate at the Australian National University, Canberra. My thesis topic is **data preprocessing** and the development of tools to visualise data preprocessing decisions.
+I'm a PhD candidate at the Australian National University, Canberra. My thesis topic is data preprocessing. Specifically, I'm interested in developing a visualisation system to communicate data preprocessing decisions. This research is conducted under the supervision of Professor Lexing Xie, Dr. Petra Kuhnert, and Dr. Jenny Davis. 
 
-# Current projects
+# Projects
 
 ## Smallset Timelines
 

@@ -3,4 +3,4 @@ plugins:
 - jekyll-remote-theme
 
 title: Lydia R. Lucchesi
-description: Personal academic website
+logo: /assets/img/headshot.jpg
