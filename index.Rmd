@@ -4,14 +4,7 @@ output:
     theme: flatly
 ---
 
-<style type="text/css">
-.main-container {
-  margin-left: 250px;
-  margin-right: 130px;
-  margin-top: 50px;
-  margin-bottom: 130px;
-}
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 # Lydia R. Lucchesi
 
@@ -24,7 +17,7 @@ output:
 
 <div style="width: 25%; float:left">
 
-<img style="float: left;margin: 0px 0px 30px 0px" width="200" height="200" src="assets/img/headshot.jpg"/>
+<img style="float: left;margin: 0px 0px 30px 0px" width="100%" height="100%" src="assets/img/headshot.jpg"/>
 
 Canberra, Australia
 <br />
@@ -32,11 +25,11 @@ lydia.lucchesi [at] anu.edu.au
 
 </div>
 
-<div style="width: 2%">
+<div style="width: 5%">
   
 </div>
 
-<div style="width: 73%; float:right">
+<div style="width: 70%; float:right">
 I'm a PhD candidate in the School of Computing at the Australian National University (ANU). My thesis topic is data preprocessing. **I'm interested in developing visualisation tools for documenting and communicating data preprocessing decisions.** This research is conducted under the supervision of Professor Lexing Xie, Dr. Petra Kuhnert, and Dr. Jenny L. Davis.
 
 I'm a Data61 affiliate at CSIRO (Australia's national science organisation), a team member of the Humanising Machine Intelligence research initiative, and part of the Computational Media Lab at ANU. Prior to ANU, I completed a two-year post-bachelor fellowship at the Institute for Health Metrics and Evaluation (IHME) at the University of Washington, where I modelled the health burden of non-fatal injuries on the Global Burden of Disease study. I have a B.A. in Statistics from the University of Missouri and completed my honours thesis on uncertainty visualisation in spatial statistics under the supervision of Professor Christopher K. Wikle.
@@ -57,7 +50,7 @@ The [smallsets R package](https://lydialucchesi.github.io/smallsets/) generates 
 
 Below is a Smallset Timeline visualising the preprocessing of a synthetic dataset with 100 rows and eight columns (C1-C8). It uses a Smallset of five rows and is composed of three Smallset snapshots showing three preprocessing steps.
 
-<center><img src="assets/img/timeline.png" width="700"/></center>
+<center><img src="assets/img/timeline.png" width="100%"/></center>
 
 &nbsp;
 &nbsp;
@@ -69,7 +62,7 @@ The [Vizumap R package](https://lydialucchesi.github.io/Vizumap/) offers four me
 
 Below is an example pixel map that I built with Vizumap. Pixel maps divide regions into pixels, and the pixels are filled with values sampled from the confidence interval for a region's estimate. The U.S. equal area cartogram below visualises [2020 election forecasts from FiveThirtyEight](https://github.com/fivethirtyeight/data/tree/15f210532b2a642e85738ddefa7a2945d47e2585/election-forecasts-2020)^1^. The pixel values are uniformly sampled from the 80% confidence interval for each state's forecasted vote share for Biden. Regions with greater uncertainty appear more pixelated, as the confidence interval spans more of the colour gradient. Regions with lower uncertainty appear less pixelated (i.e., smoother).
 
-<center><img src="assets/img/map.png" width="700"/></center>
+<center><img src="assets/img/map.png" width="100%"/></center>
 
 &nbsp;
 &nbsp;
@@ -80,7 +73,5 @@ Below is an example pixel map that I built with Vizumap. Pixel maps divide regio
 &nbsp;
 &nbsp;
 &nbsp;
-
-
 
 </div>
