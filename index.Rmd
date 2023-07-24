@@ -5,7 +5,7 @@ output:
 ---
 
 <title>Lydia Lucchesi Profile</title>
-
+<meta name="google-site-verification" content="vw0yEbD0j7QvALH1-loxg8lqHaRcuyC4-2Wlj-5kC1o" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 # Lydia R. Lucchesi
