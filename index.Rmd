@@ -4,7 +4,7 @@ output:
   html_document:
     includes:
       in_header: google_verify.html
-    theme: flatly
+    theme: lumen
 ---
 
 &nbsp;
@@ -19,7 +19,7 @@ output:
 <img style="float: left;margin: 0px 0px 30px 0px" width="100%" height="100%" src="assets/img/headshot.jpg"/>
 
 <font size="2">
-Email: lydia.lucchesi [at] anu.edu.au
+Email: [lydia.lucchesi@anu.edu.au](mailto:lydia.lucchesi@anu.edu.au)
 Canberra, Australia
 </font>
 
@@ -30,11 +30,14 @@ Canberra, Australia
 </div>
 
 <div style="width: 70%; float:right">
+
 I'm a PhD candidate in the School of Computing at the Australian National University (ANU). My thesis topic is data preprocessing. **I'm interested in developing visualisation tools for documenting and communicating data preprocessing decisions.** This research is conducted under the supervision of Professor Lexing Xie, Dr. Petra Kuhnert, and Dr. Jenny L. Davis.
 
-I'm a Data61 affiliate at CSIRO (Australia's national science agency), a team member of the Humanising Machine Intelligence research initiative, and part of the Computational Media Lab at ANU. Prior to ANU, I completed a two-year post-bachelor fellowship at the Institute for Health Metrics and Evaluation (IHME) at the University of Washington, where I modelled the health burden of non-fatal injuries on the Global Burden of Disease study. I have a B.A. in statistics from the University of Missouri and completed my honours thesis on uncertainty visualisation in spatial statistics under the supervision of Professor Christopher K. Wikle.
+I'm a Data61 affiliate at CSIRO (Australia's national science agency), a team member of the Humanising Machine Intelligence research initiative, and part of the Computational Media Lab at ANU.
 
-My research interests include data preprocessing, data provenance, and data visualisation. I enjoy building visualisation systems in R and being a part of interdisciplinary research teams.
+Prior to ANU, I completed a two-year post-bachelor fellowship at the Institute for Health Metrics and Evaluation (IHME) at the University of Washington, where I modelled the health burden of non-fatal injuries on the Global Burden of Disease study. I have a B.A. in statistics from the University of Missouri and completed my honours thesis on uncertainty visualisation in spatial statistics under the supervision of Professor Christopher K. Wikle.
+
+My research interests include data preprocessing, data provenance, data visualisation, uncertainty communication, and reproducible research. I enjoy building visualisation systems in R and being a part of interdisciplinary research teams.
 
 # Current projects
 
@@ -56,7 +59,7 @@ Below is a Smallset Timeline visualising the preprocessing of a synthetic datase
 &nbsp;
 &nbsp;
 
-<span style="background-color: #DCE775; padding: 3px">**I am always happy to help one build a Smallset Timeline for their dataset and preprocessing work. Please do not hesitate to reach out via email.**</span>
+<span style="background-color: #FFF59D; padding: 3px">I am always happy to help one build a Smallset Timeline for their dataset and preprocessing work. Please do not hesitate to reach out via email.</span>
 
 
 &nbsp;
