@@ -1,0 +1,25 @@
+p {
+  color: #003333;
+}
+
+h1, h2, h3 {
+  color: #000033;
+}
+
+a {
+  color: #6699FF;
+}
+
+a:hover {
+  color: #6699FF;
+}
+
+body {
+  font-family: "Georgia", serif;
+}
+
+h1, h2, h3 {
+  font-family: "Georgia", serif;
+}
+
+

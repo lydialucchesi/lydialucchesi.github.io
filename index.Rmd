@@ -5,6 +5,7 @@ output:
     includes:
       in_header: google_verify.html
     theme: flatly
+    css: style.css
 ---
 
 &nbsp;
@@ -16,11 +17,13 @@ output:
 
 <div style="width: 25%; float:left">
 
-<img style="float: left;margin: 0px 0px 30px 0px" width="100%" height="100%" src="assets/img/headshot.jpg"/>
+<img style="float: left;margin: 0px 0px 30px 0px" width="100%" height="100%" src="assets/img/headshot.png"/>
 
 <font size="2">
 Email: lydia.lucchesi [at] anu.edu.au
 Canberra, Australia
+<br>
+[Curriculum vitae](https://lydialucchesi.github.io/cv/cv_LydiaLucchesi.pdf)
 </font>
 
 </div>
@@ -30,6 +33,7 @@ Canberra, Australia
 </div>
 
 <div style="width: 70%; float:right">
+*On the job market for 2024!*
 
 I'm a PhD candidate in the School of Computing at the Australian National University (ANU). My thesis topic is data preprocessing. **I'm interested in developing visualisation tools for documenting and communicating data preprocessing decisions.** This research is conducted under the supervision of Professor Lexing Xie, Dr. Petra Kuhnert, and Dr. Jenny L. Davis.
 
@@ -47,22 +51,20 @@ The [smallsets R package](https://lydialucchesi.github.io/smallsets/) generates 
 
 **smallsets website: [lydialucchesi.github.io/smallsets/](https://lydialucchesi.github.io/smallsets/)**
 <br />
-**Smallset Timeline paper in FAccT '22 proceedings: [doi.org/10.1145/3531146.3533175](https://dl.acm.org/doi/abs/10.1145/3531146.3533175)**
+**Smallset Timeline paper: [doi.org/10.1145/3531146.3533175](https://dl.acm.org/doi/abs/10.1145/3531146.3533175)**
 
-Below is a Smallset Timeline visualising the preprocessing of a synthetic dataset with 100 rows and eight columns (C1-C8). It uses a Smallset of five rows and is composed of three Smallset snapshots showing three preprocessing steps.
-
-<center><img src="assets/img/timeline.png" width="100%"/></center>
+Below is an example Smallset Timeline visualising the preprocessing of a synthetic dataset with 100 rows and eight columns (C1-C8). It uses a Smallset of five rows and is composed of three Smallset snapshots showing three preprocessing steps.
 
 &nbsp;
 &nbsp;
 &nbsp;
 
-<span style="background-color: #DCE775; padding: 3px">**I am always happy to help one build a Smallset Timeline for their dataset and preprocessing work. Please do not hesitate to reach out via email.**</span>
+<center><img src="assets/img/smallset_timeline.png" width="90%"/></center>
 
+&nbsp;
+&nbsp;
+&nbsp;
 
-&nbsp;
-&nbsp;
-&nbsp;
 
 ## Vizumap: Visualising uncertainty on maps
 
@@ -70,7 +72,11 @@ The [Vizumap R package](https://lydialucchesi.github.io/Vizumap/) offers four me
 
 Below is an example pixel map that I built with Vizumap. Pixel maps divide regions into pixels, and the pixels are filled with values sampled from the confidence interval for a region's estimate. The U.S. equal area cartogram below visualises [2020 election forecasts from FiveThirtyEight](https://github.com/fivethirtyeight/data/tree/15f210532b2a642e85738ddefa7a2945d47e2585/election-forecasts-2020)^1^. The pixel values are uniformly sampled from the 80% confidence interval for each state's forecasted vote share for Biden. Regions with greater uncertainty appear more pixelated, as the confidence interval spans more of the colour gradient. Regions with lower uncertainty appear less pixelated (i.e., smoother), as the confidence interval spans less of the colour gradient.
 
-<center><img src="assets/img/map.png" width="90%"/></center>
+&nbsp;
+&nbsp;
+&nbsp;
+
+<center><img src="assets/img/us_pixel_map.png" width="90%"/></center>
 
 &nbsp;
 &nbsp;
