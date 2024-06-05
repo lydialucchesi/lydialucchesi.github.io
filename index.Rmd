@@ -23,80 +23,32 @@ output:
 <figcaption>Mount Field National Park, Tasmania</figcaption>
 </font>
 </figure>
-
 &nbsp;
 
-<font size="2">
-Email: lydia.lucchesi [at] anu.edu.au
+<font size="4.5">
+[Projects](projects.html)
 <br>
 [GitHub](https://github.com/lydialucchesi)
 <br>
 [Curriculum vitae](https://lydialucchesi.github.io/cv/cv_LydiaLucchesi.pdf)
 <br>
+[PhD thesis](https://lydialucchesi.github.io/thesis/thesis_LydiaLucchesi.pdf)
+<br>
+[Contact](mailto:lydia.lucchesi@anu.edu.au)
 </font>
 
 </div>
 
-<div style="width: 5%">
+<div style="width: 1%">
   
 </div>
 
 <div style="width: 70%; float:right">
-*On the job market for 2024!*
+<font size="4">
+Hello, my name is Lydia! I am an R software developer and quantitative researcher, with expertise in **data preprocessing**, **data provenance**, and **data visualization**.
 
-I'm a PhD candidate in the School of Computing at the Australian National University (ANU). My thesis topic is data preprocessing. **I'm interested in developing visualisation tools for documenting and communicating data preprocessing decisions.** This research is conducted under the supervision of Professor Lexing Xie, Dr. Petra Kuhnert, and Dr. Jenny L. Davis.
+I recently completed my PhD in computer science (conferral in July 2024) at the Australian National University (ANU) under the supervision of Professor Lexing Xie, Dr. Petra Kuhnert, and Professor Jenny L. Davis. [My thesis](https://lydialucchesi.github.io/thesis/thesis_LydiaLucchesi.pdf) was about data preprocessing and involved the development of a new visualization ([Smallset Timelines](https://dl.acm.org/doi/10.1145/3531146.3533175)) and R software package ([smallsets](https://CRAN.R-project.org/package=smallsets)) for documenting data preprocessing decisions.
 
-I'm a Data61 affiliate at CSIRO (Australia's national science agency), a team member of the Humanising Machine Intelligence research initiative, and part of the Computational Media Lab at ANU. Prior to ANU, I completed a two-year post-bachelor fellowship at the Institute for Health Metrics and Evaluation (IHME) at the University of Washington, where I modelled the health burden of non-fatal injuries on the Global Burden of Disease study. I have a B.A. in statistics from the University of Missouri and completed my honours thesis on uncertainty visualisation in spatial statistics under the supervision of Professor Christopher K. Wikle.
+During my doctoral program, I was a Data61 affiliate at CSIRO (Australia's national science agency) and a team member of the Humanising Machine Intelligence project and Computational Media Lab at ANU.
 
-My research interests include data provenance, data preprocessing, visualisation, uncertainty communication, and reproducible research. I enjoy building visualisation systems in R and being a part of interdisciplinary research teams.
-
-# Current projects
-
-The uniting theme between these projects is visualising information, from/about a data analysis, that is often overlooked in research dissemination, despite its relevance to our understanding and interpretation of the analysis.
-
-## smallsets: Visual documentation for data preprocessing
-
-The [smallsets R package](https://lydialucchesi.github.io/smallsets/) generates visual documentation for data preprocessing in R, R Markdown, Python, and Jupyter Notebooks. Users add structured comments to their preprocessing code and pass it to smallsets. The output from smallsets is a [Smallset Timeline](https://dl.acm.org/doi/abs/10.1145/3531146.3533175), a static and compact visualisation providing a step-by-step explanation of preprocessing decisions. It uses a small set ("Smallset") of rows from the original dataset to visualise the process at a manageable scale.
-
-**smallsets website: [lydialucchesi.github.io/smallsets/](https://lydialucchesi.github.io/smallsets/)**
-<br />
-**Smallset Timeline paper: [doi.org/10.1145/3531146.3533175](https://dl.acm.org/doi/abs/10.1145/3531146.3533175)**
-
-Below is an example Smallset Timeline visualising the preprocessing of a synthetic dataset with 100 rows and eight columns (C1-C8). It uses a Smallset of five rows and is composed of three Smallset snapshots showing three preprocessing steps.
-
-&nbsp;
-&nbsp;
-&nbsp;
-
-<center><img src="assets/img/smallset_timeline.png" width="90%"/></center>
-
-&nbsp;
-&nbsp;
-&nbsp;
-
-
-## Vizumap: Visualising uncertainty on maps
-
-The [Vizumap R package](https://lydialucchesi.github.io/Vizumap/) offers four methods for mapping statistical estimates and uncertainties simultaneously. Users can build a bivariate map, pixel map (with optional animated flickering), glyph map, or exceedance probability map. Vizumap has been used in [ecology](https://www.nature.com/articles/s41598-020-73897-1) and [public health](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-022-13170-4) research. There is also a [VizumApp Shiny app](https://shiny.csiro.au/VizumApp/) based on the Vizumap package.
-
-Below is an example pixel map that I built with Vizumap. Pixel maps divide regions into pixels, and the pixels are filled with values sampled from the confidence interval for a region's estimate. The U.S. equal area cartogram below visualises [2020 election forecasts from FiveThirtyEight](https://github.com/fivethirtyeight/data/tree/15f210532b2a642e85738ddefa7a2945d47e2585/election-forecasts-2020)^1^. The pixel values are uniformly sampled from the 80% confidence interval for each state's forecasted vote share for Biden. States with wider confidence intervals appear more pixelated because the confidence interval spans more of the colour gradient. The pixel values are sampled from a wider range of colour values, leading to visible colour contrast between the pixels. Conversely, states with narrower confidence intervals appear less pixelated.
-
-&nbsp;
-&nbsp;
-&nbsp;
-
-<center><img src="assets/img/us_pixel_map.png" width="90%"/></center>
-
-&nbsp;
-&nbsp;
-&nbsp;
-
-<font size="2.5">
-^1^ I used variables `voteshare_chal` (vote share), `voteshare_chal_lo` (80% CI lower bound), and `voteshare_chal_hi` (80% CI upper bound) from the file `presidential_state_toplines_2020.csv` available in the [FiveThirtyEight GitHub repository](https://github.com/fivethirtyeight/data/tree/master/election-forecasts-2020).
-</font>
-
-&nbsp;
-&nbsp;
-&nbsp;
-
-</div>
+Previously, I completed a two-year post-bachelor fellowship at the Institute for Health Metrics and Evaluation (IHME) at the University of Washington, where I modeled the health burden of non-fatal injuries on the Global Burden of Disease study. I have a B.A. in statistics from the University of Missouri and completed my honors thesis on uncertainty visualization in spatial statistics under the supervision of Professor Christopher K. Wikle.

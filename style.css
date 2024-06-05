@@ -7,18 +7,18 @@ h1, h2, h3 {
 }
 
 a {
-  color: #6699FF;
+  color: #CC0066;
 }
 
 a:hover {
-  color: #6699FF;
+  color: #94B725;
 }
 
 body {
   font-family: "Georgia", serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: "Georgia", serif;
 }
 

@@ -1,0 +1,55 @@
+---
+title: "Current Projects"
+output: 
+  html_document:
+    theme: flatly
+    css: style.css
+---
+
+#### The uniting theme between these projects is visualizing information---from/about a data analysis---that is often overlooked in research dissemination, despite its relevance to our understanding of the analysis.
+
+***
+
+## smallsets: Visual documentation for data preprocessing
+
+The [smallsets R package](https://lydialucchesi.github.io/smallsets/) generates visual documentation for data preprocessing in R, R Markdown, Python, and Jupyter Notebooks. Users add structured comments to their preprocessing code and pass it to smallsets. The output from smallsets is a [Smallset Timeline](https://dl.acm.org/doi/abs/10.1145/3531146.3533175), a static and compact visualisation providing a step-by-step explanation of preprocessing decisions. It uses a small set ("Smallset") of rows from the original dataset to visualize the process at a manageable scale.
+
+**smallsets website: [lydialucchesi.github.io/smallsets/](https://lydialucchesi.github.io/smallsets/)**
+<br />
+**Smallset Timeline paper: [doi.org/10.1145/3531146.3533175](https://dl.acm.org/doi/abs/10.1145/3531146.3533175)**
+
+Below is an example Smallset Timeline visualizing the preprocessing of a synthetic dataset with 100 rows and eight columns (C1-C8). It uses a Smallset of five rows and is composed of three Smallset snapshots showing three preprocessing steps.
+
+<br>
+
+<center><img src="assets/img/smallset_timeline.png" width="90%"/></center>
+
+<br>
+
+***
+
+## Vizumap: Visualizing uncertainty on maps
+
+The [Vizumap R package](https://lydialucchesi.github.io/Vizumap/) offers four methods for mapping statistical estimates and uncertainties simultaneously. Users can build a bivariate map, pixel map (with optional animated flickering), glyph map, or exceedance probability map. Vizumap has been used in [ecology](https://www.nature.com/articles/s41598-020-73897-1) and [public health](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-022-13170-4) research.
+
+Below is an example pixel map that I built with Vizumap. Pixel maps divide regions into pixels, and the pixels are filled with values sampled from the confidence interval for a region's estimate. The U.S. equal area cartogram below visualizes [2020 election forecasts from FiveThirtyEight](https://github.com/fivethirtyeight/data/tree/15f210532b2a642e85738ddefa7a2945d47e2585/election-forecasts-2020).^1^ The pixel values are uniformly sampled from the 80% confidence interval for each state's forecasted vote share for Biden. States with wider confidence intervals appear more pixelated because the confidence interval spans more of the color gradient. Conversely, states with narrower confidence intervals appear less pixelated.
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+<center><img src="assets/img/us_pixel_map.png" width="80%"/></center>
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+<font size="2.5">
+^1^ I used variables `voteshare_chal` (vote share), `voteshare_chal_lo` (80% CI lower bound), and `voteshare_chal_hi` (80% CI upper bound) from the file `presidential_state_toplines_2020.csv` available in the [FiveThirtyEight GitHub repository](https://github.com/fivethirtyeight/data/tree/master/election-forecasts-2020).
+</font>
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+</div>
