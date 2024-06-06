@@ -18,12 +18,12 @@ output:
 <div style="width: 25%; float:left">
 
 <figure>
-<img style="float: left;margin: 0px 0px 0px 0px" width="100%" height="100%" src="assets/img/mount_field.jpg"/>
+<img style="float: left;margin: 0px 0px 3px 0px" width="100%" height="100%" src="assets/img/mount_field.jpg"/>
 <font size="2">
 <figcaption>Mount Field National Park, Tasmania</figcaption>
+<br>
 </font>
 </figure>
-&nbsp;
 
 <font size="4.5">
 [Projects](projects.html)
@@ -45,7 +45,7 @@ output:
 
 <div style="width: 70%; float:right">
 <font size="4">
-Hello, my name is Lydia! I am an R software developer and quantitative researcher, with expertise in **data preprocessing**, **data provenance**, and **data visualization**.
+Hello, my name is Lydia! I am a researcher, with expertise in **data preprocessing**, **data provenance**, **data visualization**, and **R software development**.
 
 I recently completed my PhD in computer science (conferral in July 2024) at the Australian National University (ANU) under the supervision of Professor Lexing Xie, Dr. Petra Kuhnert, and Professor Jenny L. Davis. [My thesis](https://lydialucchesi.github.io/thesis/thesis_LydiaLucchesi.pdf) was about data preprocessing and involved the development of a new visualization ([Smallset Timelines](https://dl.acm.org/doi/10.1145/3531146.3533175)) and R software package ([smallsets](https://CRAN.R-project.org/package=smallsets)) for documenting data preprocessing decisions.
 
