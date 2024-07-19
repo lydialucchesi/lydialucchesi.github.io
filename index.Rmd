@@ -30,8 +30,6 @@ output:
 <br>
 [GitHub](https://github.com/lydialucchesi)
 <br>
-[Curriculum vitae](https://lydialucchesi.github.io/cv/cv_LydiaLucchesi.pdf)
-<br>
 [PhD thesis](https://lydialucchesi.github.io/thesis/thesis_LydiaLucchesi.pdf)
 <br>
 [Contact](mailto:lydia.lucchesi@anu.edu.au)
@@ -47,7 +45,7 @@ output:
 <font size="4.5">
 Hello, my name is Lydia! I am a researcher interested in data provenance, data preprocessing, data visualization, uncertainty communication, and R software development.
 
-I recently completed my PhD in computer science (conferral in July 2024) at the Australian National University (ANU) under the supervision of Professor Lexing Xie, Dr. Petra Kuhnert, and Professor Jenny L. Davis. My doctoral research resulted in a new visualization ([Smallset Timelines](https://dl.acm.org/doi/10.1145/3531146.3533175)) and R software package ([smallsets](https://CRAN.R-project.org/package=smallsets)) for documenting data preprocessing decisions. 
+I recently completed my PhD in computer science at the Australian National University (ANU) under the supervision of Professor Lexing Xie, Dr. Petra Kuhnert, and Professor Jenny L. Davis. My doctoral research resulted in a new visualization ([Smallset Timelines](https://dl.acm.org/doi/10.1145/3531146.3533175)) and R software package ([smallsets](https://CRAN.R-project.org/package=smallsets)) for documenting data preprocessing decisions. 
 
 During my doctoral program, I was a Data61 affiliate at CSIRO (Australia's national science agency) and a team member of the Humanising Machine Intelligence project and Computational Media Lab at ANU.
 
