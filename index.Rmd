@@ -26,11 +26,9 @@ output:
 </figure>
 
 <font size="4">
-[Research projects](projects.html)
+[PhD thesis](https://lydialucchesi.github.io/thesis/thesis_LydiaLucchesi.pdf)
 <br>
 [GitHub](https://github.com/lydialucchesi)
-<br>
-[PhD thesis](https://lydialucchesi.github.io/thesis/thesis_LydiaLucchesi.pdf)
 <br>
 [Contact](mailto:lydia.lucchesi@anu.edu.au)
 </font>
