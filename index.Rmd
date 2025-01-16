@@ -15,22 +15,22 @@ output:
 &nbsp;
 &nbsp;
 
-<div style="width: 25%; float:left">
+<div style="width: 20%; float:left">
 
 <figure>
-<img style="float: left;margin: 0px 0px 3px 0px" width="100%" height="100%" src="assets/img/mount_field.jpg"/>
-<font size="2">
-<figcaption>Mount Field National Park, Tasmania</figcaption>
-<br>
-</font>
+<img style="float: left;margin: 0px 0px 2px 0px" width="100%" height="100%" src="assets/img/headshot.jpg"/>
 </figure>
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 <font size="4">
 [PhD thesis](https://lydialucchesi.github.io/thesis/thesis_LydiaLucchesi.pdf)
 <br>
 [GitHub](https://github.com/lydialucchesi)
 <br>
-[Contact](mailto:lydia.lucchesi@anu.edu.au)
+[Contact](mailto:lydia.lucchesi@austin.utexas.edu)
 </font>
 
 </div>
@@ -39,11 +39,11 @@ output:
   
 </div>
 
-<div style="width: 70%; float:right">
+<div style="width: 75%; float:right">
 <font size="4.5">
-Hello, my name is Lydia! I am a researcher interested in data provenance, data preprocessing, data visualization, uncertainty communication, and R software development.
+Hello, my name is Lydia! I am a postdoctoral fellow, advised by Professor Roger Peng, in the Department of Statistics and Data Sciences at the University of Texas at Austin (Hook \'em Horns!). My research interests include **data provenance**, **data preprocessing**, **data visualization**, **uncertainty communication**, and **R software development**.
 
-I recently completed my PhD in computer science at the Australian National University (ANU) under the supervision of Professor Lexing Xie, Dr. Petra Kuhnert, and Professor Jenny L. Davis. My doctoral research resulted in a new visualization ([Smallset Timelines](https://dl.acm.org/doi/10.1145/3531146.3533175)) and R software package ([smallsets](https://CRAN.R-project.org/package=smallsets)) for documenting data preprocessing decisions. 
+In 2024, I completed my PhD in computer science at the Australian National University (ANU) under the supervision of Professor Lexing Xie, Dr. Petra Kuhnert, and Professor Jenny L. Davis. My doctoral research resulted in a new visualization ([Smallset Timelines](https://dl.acm.org/doi/10.1145/3531146.3533175)) and R software package ([smallsets](https://CRAN.R-project.org/package=smallsets)) for documenting data preprocessing decisions. 
 
 During my doctoral program, I was a Data61 affiliate at CSIRO (Australia's national science agency) and a team member of the Humanising Machine Intelligence project and Computational Media Lab at ANU.
 
