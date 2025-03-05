@@ -25,9 +25,11 @@ output:
 &nbsp;
 
 <font size="4">
-[PhD thesis](https://lydialucchesi.github.io/thesis/thesis_LydiaLucchesi.pdf)
+[Bluesky](https://bsky.app/profile/lydialucchesi.bsky.social)
 <br>
 [GitHub](https://github.com/lydialucchesi)
+<br>
+[PhD thesis](https://lydialucchesi.github.io/thesis/thesis_LydiaLucchesi.pdf)
 <br>
 [LinkedIn](https://www.linkedin.com/in/lydialucchesi/)
 <br>
